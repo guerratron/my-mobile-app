@@ -7,8 +7,4 @@ purpose of the file is to pass control to the app’s first page.
 import { svelteNativeNoFrame } from '@nativescript-community/svelte-native'
 import App from './App.svelte'
 
-import zipy from "zipyai";
-
-zipy.init("4e9df302");
-
 svelteNativeNoFrame(App, {})
