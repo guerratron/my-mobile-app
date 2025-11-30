@@ -3,7 +3,7 @@
     <gridLayout>
         <label class="info">
             <formattedString>
-                <span class="fas" text="&#xf135;" />
+                <span class="fas" text="&#xf135; Hello Boy" /> 
                 <span text=" {message}" />
             </formattedString>
         </label>
@@ -11,7 +11,7 @@
 </page>
 
 <script lang="ts">
-    let message: string = "Blank Svelte Native App"
+    let message: string = "Blank Svelte Native App";
 </script>
 
 <style>
@@ -20,8 +20,8 @@
     }
 
     .info {
-        font-size: 20;
-        horizontal-align: center;
+        /*font-size: 20;
+        horizontal-align: center;*/
         vertical-align: center;
     }
 </style>

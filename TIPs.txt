@@ -1,0 +1,12 @@
+UTILIZANDO ZIPY PARA DETECTAR ERRORES:
+<script src="https://cdn.zipy.ai/sdk/v1.0/zipy.min.umd.js" crossorigin="anonymous"></script>
+<script> window.zipy && window.zipy.init('4e9df302');</script>
+
+Ó BIEN:
+1. Install 'zipy' via NPM
+npm i zipyai
+
+2. Copy this code in the main file of your app:
+import zipy from 'zipyai';
+
+zipy.init('4e9df302');
